@@ -383,7 +383,7 @@ _phpextensions_fpm="\
 
 
 options=('!lto')
-arch=("x86_64")
+arch=("$CARCH")
 checkdepends=('procps-ng' 'smtp-forwarder')
 license=('PHP')
 url='http://www.php.net'
